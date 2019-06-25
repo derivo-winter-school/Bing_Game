@@ -19,6 +19,12 @@ namespace ProjectSearch.Classes
         // create object of the class
         Randomize random = new Randomize();
 
+        int rowTicket2 = 0;
+        int rowTicket3 = 0;
+        int rowTicket4 = 0;
+        int rowTicket5 = 0;
+        int rowTicket6 = 0;
+
         public static void displayTicket()
         {
 
@@ -61,15 +67,13 @@ namespace ProjectSearch.Classes
             // for adding the specific big array indices to the specific ticket index points
             for (int i = 3; i < 6; i++)
             {
-                int rowTicket = 0;
-
-
+              
                 for (int j = 0; j < 9; j++)
                 {
-                    ticketTwo[rowTicket, j] = getArray()[i][j];
+                    ticketTwo[rowTicket2, j] = getArray()[i][j];
                 }
 
-                rowTicket++;
+                rowTicket2++;
  
             }
 
@@ -82,14 +86,12 @@ namespace ProjectSearch.Classes
             // for adding the specific big array indices to the specific ticket index points
             for (int i = 6; i < 9; i++)
             {
-                int rowTicket = 0;
-
-
+               
                 for (int j = 0; j < 9; j++)
                 {
-                    ticketThree[rowTicket, j] = getArray()[i][j];
+                    ticketThree[rowTicket3, j] = getArray()[i][j];
                 }
-                rowTicket++;
+                rowTicket3++;
 
             }
 
@@ -101,15 +103,13 @@ namespace ProjectSearch.Classes
             // for adding the specific big array indices to the specific ticket index points
             for (int i = 9; i < 12; i++)
             {
-                int rowTicket = 0;
-
-
+        
                 for (int j = 0; j < 9; j++)
                 {
-                    ticketFour[rowTicket, j] = getArray()[i][j];
+                    ticketFour[rowTicket4, j] = getArray()[i][j];
                 }
 
-                rowTicket++;
+                rowTicket4++;
             }
 
             return ticketFour;
@@ -120,15 +120,13 @@ namespace ProjectSearch.Classes
             // for adding the specific big array indices to the specific ticket index points
             for (int i = 12; i < 15; i++)
             {
-                int rowTicket = 0;
-
-
+                
                 for (int j = 0; j < 9; j++)
                 {
-                    ticketFive[rowTicket, j] = getArray()[i][j];
+                    ticketFive[rowTicket5, j] = getArray()[i][j];
                 }
 
-                rowTicket++;
+                rowTicket5++;
             }
             return ticketFive;
         }
@@ -138,15 +136,13 @@ namespace ProjectSearch.Classes
             // for adding the specific big array indices to the specific ticket index points
             for (int i = 15; i < 18; i++)
             {
-                int rowTicket = 0;
-
-
+               
                 for (int j = 0; j < 9; j++)
                 {
-                    ticketSix[rowTicket, j] = getArray()[i][j];
+                    ticketSix[rowTicket6, j] = getArray()[i][j];
                 }
 
-                rowTicket++;
+                rowTicket6++;
             }
 
 

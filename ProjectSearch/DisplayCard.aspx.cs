@@ -13,17 +13,18 @@ namespace ProjectSearch
         Classes.Randomize random = new Classes.Randomize();
         protected void Page_Load(object sender, EventArgs e)
         {
-            //// for printing only!
-            //for (int i = 0; i < 3; i++)
-            //{
 
-            //    for (int j = 0; j < 9; j++)
-            //    {
-            //        TextBox1.Text += tickets.getticketOne()[i, j];
+            // for printing only!
+            for (int i = 0; i < 3; i++)
+            {
 
-            //    }
+                for (int j = 0; j < 9; j++)
+                {
+                    TextBox1.Text += tickets.getticketTwo()[i, j];
 
-            //}
+                }
+
+            }
 
             // call the search
 
